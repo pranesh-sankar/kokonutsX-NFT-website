@@ -21,6 +21,7 @@
     height: 300px;
     padding: 10px;
     border-radius: 30px;
+    transition: ease-in-out 100ms;
 }
 
 .gifs img:hover{
@@ -42,26 +43,40 @@ header h1{
     font-size: 70px;
 }
 
-.about{
+.banner{
+    margin-top: 300px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
+}
+
+.banner img{
+    width: 70%;
+}
+
+.about{
+    display: flex;
+    justify-content:space-evenly;
     padding: 30px;
-    padding-top: 300px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: black;
 }
 
 .about img{
-    width: 520px;
-    height: 520px;
+    width: 620px;
+    height: 620px;
     border-radius: 30px;
     margin-left: 100px;
+    transition: ease-in-out 100ms;
 }
 
 .about img:hover{
-    width: 540px;
-    height: 540px;
+    width: 640px;
+    height: 640px;
     border-radius: 30px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .para{
@@ -72,6 +87,7 @@ header h1{
 .about h1{
     font-size: 70px;
     padding-bottom: 70px;
+    color: azure;
 }
 
 .about p{
@@ -79,4 +95,42 @@ header h1{
     width: 250px;
     padding-right: 15px;
     padding-left: 10px;
+    color:aliceblue;
+}
+
+.media img{
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    transition: ease-in-out 100ms;
+}
+
+.media img:hover{
+    height: 170px;
+    width: 170px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 190px;
+    margin-top: 40px;
+    transition: ease-in-out 100ms;
+}
+
+.media h1{
+    font-size: 90px;
+}
+
+.media div{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
